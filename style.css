@@ -60,4 +60,14 @@ header{
     background-size: cover;
     background-position: center;
 }
-
+h2{
+    color: black;
+    list-style-type:none;
+}
+ul1{
+   color: rgb(84, 22, 228);
+   list-style-type:none;
+   display: block;
+   flex-direction: column;
+   flex-wrap: wrap;
+}

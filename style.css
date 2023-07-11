@@ -1,0 +1,63 @@
+h1{
+    color:green;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+a,#logo{
+    color: white;
+}
+nav{
+    display: flex !important;
+    /* background-color: rgb(136, 136, 18); */
+    width: 100%;
+    margin-top: 10px !important;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+header{
+    background-color: rgb(62, 15, 9);
+    padding: 10px !important;
+    min-height: 6vh
+}
+
+#hero{ 
+    background: url("photo\ acceuil.jpg");
+    min-height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero-profil{ 
+    background: url("photo\ profil.jpg");
+    min-height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero-competences{ 
+    background: url("photo\ competence.avif");
+    min-height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero-portfolio{ 
+    background: url("photo\ profolio.jpg");
+    min-height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero-contact{ 
+    background: url("photo\ contact.jpg");
+    min-height: 94vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

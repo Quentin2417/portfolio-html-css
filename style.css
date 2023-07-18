@@ -50,13 +50,6 @@ header{
     background-size: cover;
     background-position: center;
 }
-#hero-portfolio{ 
-    background: url("photo\ profolio.jpg");
-    min-height: 94vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 #hero-contact{ 
     background: url("photo\ contact.jpg");
     min-height: 94vh;
@@ -67,9 +60,11 @@ header{
 h2{
     color:red;
     font-size: 100px;
+    text-shadow: rgb(0, 255, 68) 1px 0 10px;
 }
 p{
-    color: yellow;
+    color: pink;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px;
     font-size: 25px;
     margin-top: 50px;
     padding: 5px;
@@ -87,4 +82,28 @@ p{
     width: 80px;
     margin-left: 988px;
     margin-top: 210px;
+}
+#onepiece img{
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#naruto img{
+    width: 450px;
+    margin-left: 750px;
+    margin-top: 90px;
+}
+#dragonball img{
+    width: 450px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.bienvenue{
+    margin: 0px;
+    color: yellow;
+    text-shadow: rgba(255, 0, 195, 0.92) 1px 0 10px;
+    font-size: 50px;
+}
+h{
+    font-size: 150px;
 }

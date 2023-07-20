@@ -26,12 +26,12 @@ nav{
 header{
     background-color: rgb(62, 15, 9);
     padding: 10px !important;
-    min-height:6vh;
+    min-height: 6vh;
 }
 
 #hero{ 
     background: url("photo\ acceuil.jpg");
-    min-height: 94vh;
+    min-height: 96vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,3 +168,40 @@ a1:hover::before{
     top: 0;
     border-radius: 0;
 } */
+
+main{
+    display: flex;
+    min-height: 90vh;
+    width: 100%;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgcompet{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    
+}
+
+#CV{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+#CV img{
+    width: 100px;
+}
+#imgcompet img{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:50px ;
+    margin-right:20px ;
+    
+}

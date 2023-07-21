@@ -16,7 +16,6 @@ a{
 }
 nav{
     display: flex !important;
-    /* background-color: rgb(136, 136, 18); */
     width: 100%;
     margin-top: 10px !important;
     align-content: center;
@@ -33,35 +32,35 @@ header{
 
 #hero{ 
     background: url("photo\ acceuil.jpg");
-    min-height: 96vh;
+    min-height: 87.7vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #hero-profil{ 
     background: url("photo\ profil.jpg");
-    min-height: 94vh;
+    min-height: 87.7vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #hero-competences{ 
-    background: url("photo\ competence.avif");
-    min-height: 94vh;
+    background: url("photo\ competence.jpg");
+    min-height: 87.7vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #hero-projets{ 
     background: url("photo\ projets.jpg");
-    min-height: 94vh;
+    min-height: 87.7vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #hero-contact{ 
     background: url("photo\ contact.jpg");
-    min-height: 94vh;
+    min-height: 87.7vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,17 +81,17 @@ p{
 }
 #icone-mail img{
     width: 130px;
-    margin-left:1608px;
-    margin-top: 180px;
+    margin-left:1700px;
+    margin-top: 160px;
 }
 #icone-git img{
     width: 130px;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-top: -75px;
 }
 #icone-in img{
     width: 130px;
-    margin-left: 1688px;
+    margin-left: 1700px;
     margin-top: 150px;
 }
 #onepiece img{
@@ -102,8 +101,8 @@ p{
 }
 #naruto img{
     width: 500px;
-    margin-left: 1250px;
-    margin-top: 10px;
+    margin-left: 1000px;
+    margin-top: -550px;
 }
 #dragonball img{
     width: 450px;
@@ -180,14 +179,6 @@ main{
     justify-content: center;
 
 }
-
-.imgcompet{
-    width: 100px;
-    height: 100px;
-    margin-left: 40px;
-    
-}
-
 #CV{
     color: white;
     display: flex;
@@ -200,10 +191,7 @@ main{
     width: 100px;
 }
 #imgcompet img{
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left:50px ;
-    margin-right:20px ;
-    
+
+    width: 50%;
+    margin-left: 500px; 
 }

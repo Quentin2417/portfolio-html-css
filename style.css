@@ -27,6 +27,8 @@ header{
     background-color: rgb(62, 15, 9);
     padding: 10px !important;
     min-height: 6vh;
+    position: fixed;
+    wi
 }
 
 #hero{ 

@@ -50,21 +50,21 @@ header {
 }
 #hero-competences {
   background: url("/img/photocompetence.jpg");
-  min-height: 87.7vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #hero-projets {
   background: url("/img/photoprojets.jpg");
-  min-height: 87.7vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #hero-contact {
   background: url("/img/photocontact.jpg");
-  min-height: 87.7vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -84,41 +84,43 @@ p {
   padding: 5px;
   margin-left: 30px;
 }
-#icone-mail img {
-  width: 130px;
-  margin-left: 1700px;
-  margin-top: 160px;
-}
 #icone-git img {
   width: 130px;
   margin-left: 180px;
   margin-top: -75px;
 }
+#icone-mail img {
+  width: 130px;
+  margin-left: 1600px;
+  margin-top: 160px;
+}
 #icone-in img {
   width: 130px;
-  margin-left: 1700px;
-  margin-top: 150px;
+  margin-left: 1500px;
+  margin-top: 350px;
 }
 #onepiece img {
-  width: 450px;
-  margin-left: 150px;
-  margin-top: 50px;
+  width: 500px;
+  height: 410;
+  margin-left: 140px;
+  margin-top: 330px;
 }
 #naruto img {
   width: 500px;
-  margin-left: 1000px;
-  margin-top: -550px;
+  height: 425px;
+  margin-left: 700px;
+  margin-top: -1000px;
 }
 #dragonball img {
-  width: 450px;
-  margin-left: 180px;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  width: 500px;
+  margin-left: 1262px;
+  margin-top: -427px;
+  margin-bottom: 55px;
 }
 .bienvenue {
   margin: 0px;
-  color: yellow;
-  text-shadow: rgba(255, 0, 195, 0.92) 1px 0 10px;
+  color: rgba(0, 4, 255, 0.966);
+  text-shadow: rgb(241, 239, 239) 1px 0 10px;
   font-size: 3rem;
   margin-left: 15px;
 }
@@ -141,7 +143,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 94vh;
-}
+} 
 a1{
     color: white;
     font-family: Arial, sans-serif;
@@ -173,7 +175,7 @@ a1::before{
 a1:hover::before{
     top: 0;
     border-radius: 0;
-} */
+}  */
 
 main {
   display: flex;
@@ -198,6 +200,8 @@ main {
 #imgcompet img {
   width: 50%;
   margin-left: 500px;
+  margin-top: 200px;
+
 }
 
 @media screen and (max-width: 768px) {
